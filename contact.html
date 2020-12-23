@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Contact</title>
+</head>
+<body>
+  <nav>
+  <!---logo---------------------->  
+    <a href="main.html" class="logo">G-SHOCK</a>
+    <!-----menu--------------->
+    <ul class="menu">
+      <li><a href="main.html">Home</a></li>
+      <li><a href="men.html">Men</a></li>
+      <li><a href="women.html">Women</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="contact-form">
+     <form>
+      <div class="contact-left">  
+        <h1 class="c-l-heading"><font style="border-bottom: 3px solid #1ed98b;">Contact</font></h1>
+        <div class="f-name">
+          <font>Name</font>
+          <input type="text" placeholder="Full Name">  
+        </div>
+        <div class="f-email">
+          <font>Email</font>
+          <input type="email" placeholder="Email">  
+        </div>
+         <div class="f-gender">
+          <font>Gender</font><br>
+          <input type="radio" name="gender" value="male" style="margin: 20px;"><font style="color: white;"> Male</font> 
+          <input type="radio" name="gender" value="female"style="margin: 20px;"><font style="color: white;"> Female</font>
+        </div> 
+        <br>
+        <div class="f-city">
+          <font>City</font>
+          <select>
+            <option value="">City</option>
+            <option value="1">Perlis</option>
+            <option value="2">Kedah</option>
+            <option value="3">Penang</option>
+            <option value="4">Perak</option>
+            <option value="5">Kelantan</option>
+            <option value="6">Terengganu</option>
+            <option value="7">Pahang</option>
+            <option value="8">Selangor</option>
+            <option value="9">Wilayah persekutuan</option>
+            <option value="10">Negeri Sembilan</option>
+            <option value="11">Melaka</option>    
+            <option value="12">Johor</option>
+            <option value="13">Sabah</option>
+            <option value="14">Sarawak</option>
+          </select>
+        </div>
+         
+      </div>
+      <div class="contact-right">
+        <div class="occupation">
+          <font>Occupation</font><br>
+          <input type="checkbox" name="occupation" value="student" style="margin: 20px;"><font style="color: white;"> Student</font>
+          <input type="checkbox" name="occupation" value="worker"><font style="color: white;"> Worker</font>
+        </div>  
+        <div class="message">
+          <font>Message</font>
+          <textarea name="message" rows="5" cols="20" placeholder="Write Message...."></textarea>  
+        </div>
+        <button>Submit</button>
+      </div>
+
+     </form>
+
+  </div> 
+</body>
+</html>
